@@ -15,7 +15,7 @@ Code release for DualVector: Unsupervised Vector Font Synthesis with Dual-Part R
 In general, other versions of the packages listed below may also work, but are not tested. 
 
 Important python related packages
-- python 3.8
+- python 3.9
 - pytorch 1.9.0
 - torchvision 0.10.0
 - [diffvg](https://github.com/BachiLi/diffvg) (Note: please first replace the original `diffvg/pydiffvg/save_svg.py` with [DeepVecFont's save_svg.py](https://github.com/yizhiwang96/deepvecfont/blob/master/data_utils/save_svg.py), and the original `parse_svg.py` with [our parse_svg.py](./eval/diffvg_parse_svg.py) and then install.)
